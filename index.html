@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./js/main.js" />
+    <title>Text To Speech</title>
+  </head>
+  <body class="center">
+    <!-- Main -->
+    <div class="text-to-speech">
+      <!-- Header Title -->
+      <div class="header">
+        <p>text to speech <span>converter</span></p>
+      </div>
+      <!-- Input -->
+      <div class="input">
+        <textarea type="text" placeholder="Write anything here..."></textarea>
+      </div>
+      <!-- Select Language and play the sound -->
+      <div class="language-and-speech-btn space-between">
+        <!-- Language Options -->
+        <div class="language-options">
+          <select name="" id=""></select>
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </div>
+        <!-- Speech Button -->
+        <div class="btn">
+          <button class="center" onclick="play()">
+            <i class="fa fa-play" aria-hidden="true"></i>Listen
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
